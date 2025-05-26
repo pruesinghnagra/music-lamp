@@ -40,3 +40,26 @@ What to find:
 - what kinds of value can’t be captured by algorithms?
 - are the metrics that determine visibility fair?
 - how might indie artists from diverse backgrounds be misrepresented or flattened by algorithmic inference?
+
+TO Do:
+Add a simple bar chart of monthly listeners or followers for each artist
+Use an easy library, Recharts or Chart.js.
+Just hardcode a tiny dataset or use your filtered list and log it to the console
+
+Algorithmic exploration:
+
+Write a simple function to calculate “value” with weights for Spotify and YouTube.
+
+Experiment by changing weights and seeing how the sorted list changes.
+
+Maybe try grouping artists by genre or region and find top “value” per group.
+
+Integrate real APIs:
+
+Register for Spotify API access.
+
+Write a tiny fetch to get artist data
+
+Replace or augment mock data with real API data.
+
+Cache API results locally to avoid hitting rate limits.
