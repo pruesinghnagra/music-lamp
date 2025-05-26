@@ -1,7 +1,6 @@
 import { useMemo, useState } from 'react';
 import useArtists from '../hooks/useArtists';
 import ArtistCard from '../components/ArtistCard';
-import { Artist } from '../types/Artist';
 
 export default function Home() {
   const { artists, loading, error } = useArtists();
