@@ -1,0 +1,1202 @@
+[
+  {
+    "artistName": "Mango Groove",
+    "genre": ["Electronic", "Indie Rock", "Acoustic"],
+    "region": "Auckland",
+    "foodType": ["Grain"],
+    "language": ["English"],
+    "platforms": {
+      "spotify": {
+        "followers": 2894,
+        "monthlyListeners": 6764,
+        "playlistCount": 4
+      },
+      "youtube": {
+        "subscribers": 3097,
+        "averageViews": 6177
+      },
+      "bandcamp": {
+        "followers": 205,
+        "totalReleases": 3
+      }
+    },
+    "activeSince": 2020,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Sushi Beats",
+    "genre": ["Folk", "Electronic"],
+    "region": "Wellington",
+    "foodType": ["Seafood"],
+    "language": ["English", "Japanese"],
+    "platforms": {
+      "spotify": {
+        "followers": 681,
+        "monthlyListeners": 2679,
+        "playlistCount": 3
+      },
+      "youtube": {
+        "subscribers": 1389,
+        "averageViews": 2129
+      },
+      "bandcamp": {
+        "followers": 66,
+        "totalReleases": 5
+      }
+    },
+    "activeSince": 2019,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Chili Funk",
+    "genre": ["R&B"],
+    "region": "Dunedin",
+    "foodType": ["Spice"],
+    "language": ["English"],
+    "platforms": {
+      "spotify": {
+        "followers": 4949,
+        "monthlyListeners": 18442,
+        "playlistCount": 5
+      },
+      "youtube": {
+        "subscribers": 1554,
+        "averageViews": 3804
+      },
+      "bandcamp": {
+        "followers": 186,
+        "totalReleases": 4
+      }
+    },
+    "activeSince": 2008,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Quinoa Quest",
+    "genre": ["Folk"],
+    "region": "Wellington",
+    "foodType": ["Seafood"],
+    "language": ["English", "Japanese"],
+    "platforms": {
+      "spotify": {
+        "followers": 549,
+        "monthlyListeners": 1970,
+        "playlistCount": 8
+      },
+      "youtube": {
+        "subscribers": 2672,
+        "averageViews": 5093
+      },
+      "bandcamp": {
+        "followers": 24,
+        "totalReleases": 4
+      }
+    },
+    "activeSince": 2005,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Carrot Jam",
+    "genre": ["Funk", "Pop"],
+    "region": "Auckland",
+    "foodType": ["Dessert"],
+    "language": ["English", "French"],
+    "platforms": {
+      "spotify": {
+        "followers": 3382,
+        "monthlyListeners": 11536,
+        "playlistCount": 7
+      },
+      "youtube": {
+        "subscribers": 3820,
+        "averageViews": 8173
+      },
+      "bandcamp": {
+        "followers": 35,
+        "totalReleases": 1
+      }
+    },
+    "activeSince": 2016,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Almond Flow",
+    "genre": ["R&B", "Acoustic", "Soul"],
+    "region": "Christchurch",
+    "foodType": ["Herb"],
+    "language": ["English"],
+    "platforms": {
+      "spotify": {
+        "followers": 4814,
+        "monthlyListeners": 15497,
+        "playlistCount": 3
+      },
+      "youtube": {
+        "subscribers": 3809,
+        "averageViews": 4805
+      },
+      "bandcamp": {
+        "followers": 223,
+        "totalReleases": 1
+      }
+    },
+    "activeSince": 2012,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Basil Vibes",
+    "genre": ["Alternative", "Indie Rock", "Reggae"],
+    "region": "Christchurch",
+    "foodType": ["Dessert"],
+    "language": ["English", "French"],
+    "platforms": {
+      "spotify": {
+        "followers": 2065,
+        "monthlyListeners": 6811,
+        "playlistCount": 6
+      },
+      "youtube": {
+        "subscribers": 3737,
+        "averageViews": 7520
+      },
+      "bandcamp": {
+        "followers": 49,
+        "totalReleases": 3
+      }
+    },
+    "activeSince": 2006,
+    "selfDescribedIndie": false
+  },
+  {
+    "artistName": "Tiramisu Tunes",
+    "genre": ["Electronic", "Acoustic"],
+    "region": "Auckland",
+    "foodType": ["Herb"],
+    "language": ["English"],
+    "platforms": {
+      "spotify": {
+        "followers": 3008,
+        "monthlyListeners": 7035,
+        "playlistCount": 1
+      },
+      "youtube": {
+        "subscribers": 1065,
+        "averageViews": 2226
+      },
+      "bandcamp": {
+        "followers": 264,
+        "totalReleases": 6
+      }
+    },
+    "activeSince": 2022,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Coconut Wave",
+    "genre": ["Acoustic"],
+    "region": "Wellington",
+    "foodType": ["Fruit"],
+    "language": ["English"],
+    "platforms": {
+      "spotify": {
+        "followers": 2681,
+        "monthlyListeners": 8071,
+        "playlistCount": 6
+      },
+      "youtube": {
+        "subscribers": 888,
+        "averageViews": 1663
+      },
+      "bandcamp": {
+        "followers": 58,
+        "totalReleases": 1
+      }
+    },
+    "activeSince": 2022,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Pepper Soul",
+    "genre": ["Alternative", "Funk"],
+    "region": "Auckland",
+    "foodType": ["Nut"],
+    "language": ["English"],
+    "platforms": {
+      "spotify": {
+        "followers": 4474,
+        "monthlyListeners": 10656,
+        "playlistCount": 2
+      },
+      "youtube": {
+        "subscribers": 922,
+        "averageViews": 1406
+      },
+      "bandcamp": {
+        "followers": 57,
+        "totalReleases": 3
+      }
+    },
+    "activeSince": 2011,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Berry Pulse",
+    "genre": ["Folk"],
+    "region": "Wellington",
+    "foodType": ["Nut"],
+    "language": ["English"],
+    "platforms": {
+      "spotify": {
+        "followers": 4020,
+        "monthlyListeners": 8988,
+        "playlistCount": 8
+      },
+      "youtube": {
+        "subscribers": 1755,
+        "averageViews": 3805
+      },
+      "bandcamp": {
+        "followers": 50,
+        "totalReleases": 6
+      }
+    },
+    "activeSince": 2019,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Ginger Snap",
+    "genre": ["R&B", "Indie Rock", "Funk"],
+    "region": "Dunedin",
+    "foodType": ["Dessert"],
+    "language": ["English", "French"],
+    "platforms": {
+      "spotify": {
+        "followers": 3447,
+        "monthlyListeners": 7530,
+        "playlistCount": 3
+      },
+      "youtube": {
+        "subscribers": 3505,
+        "averageViews": 4746
+      },
+      "bandcamp": {
+        "followers": 113,
+        "totalReleases": 1
+      }
+    },
+    "activeSince": 2014,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Barley Bounce",
+    "genre": ["Pop", "Acoustic"],
+    "region": "Christchurch",
+    "foodType": ["Seafood"],
+    "language": ["English", "Japanese"],
+    "platforms": {
+      "spotify": {
+        "followers": 3567,
+        "monthlyListeners": 9213,
+        "playlistCount": 8
+      },
+      "youtube": {
+        "subscribers": 2081,
+        "averageViews": 4115
+      },
+      "bandcamp": {
+        "followers": 243,
+        "totalReleases": 2
+      }
+    },
+    "activeSince": 2009,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Salmon Serenade",
+    "genre": ["R&B"],
+    "region": "Wellington",
+    "foodType": ["Vegetable"],
+    "language": ["English"],
+    "platforms": {
+      "spotify": {
+        "followers": 2940,
+        "monthlyListeners": 8555,
+        "playlistCount": 1
+      },
+      "youtube": {
+        "subscribers": 3372,
+        "averageViews": 5451
+      },
+      "bandcamp": {
+        "followers": 110,
+        "totalReleases": 1
+      }
+    },
+    "activeSince": 2010,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Pumpkin Patch",
+    "genre": ["R&B", "Electronic", "Folk"],
+    "region": "Auckland",
+    "foodType": ["Dessert"],
+    "language": ["English", "French"],
+    "platforms": {
+      "spotify": {
+        "followers": 1858,
+        "monthlyListeners": 6868,
+        "playlistCount": 8
+      },
+      "youtube": {
+        "subscribers": 2625,
+        "averageViews": 3836
+      },
+      "bandcamp": {
+        "followers": 92,
+        "totalReleases": 2
+      }
+    },
+    "activeSince": 2010,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Walnut Whisper",
+    "genre": ["Soul"],
+    "region": "Christchurch",
+    "foodType": ["Fruit"],
+    "language": ["English"],
+    "platforms": {
+      "spotify": {
+        "followers": 4143,
+        "monthlyListeners": 11020,
+        "playlistCount": 5
+      },
+      "youtube": {
+        "subscribers": 1372,
+        "averageViews": 3374
+      },
+      "bandcamp": {
+        "followers": 107,
+        "totalReleases": 3
+      }
+    },
+    "activeSince": 2020,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Rosemary Rhythm",
+    "genre": ["Reggae"],
+    "region": "Auckland",
+    "foodType": ["Seafood"],
+    "language": ["English", "Japanese"],
+    "platforms": {
+      "spotify": {
+        "followers": 4619,
+        "monthlyListeners": 9912,
+        "playlistCount": 6
+      },
+      "youtube": {
+        "subscribers": 951,
+        "averageViews": 1586
+      },
+      "bandcamp": {
+        "followers": 181,
+        "totalReleases": 6
+      }
+    },
+    "activeSince": 2009,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Chocolate Drift",
+    "genre": ["Funk"],
+    "region": "Auckland",
+    "foodType": ["Nut"],
+    "language": ["English"],
+    "platforms": {
+      "spotify": {
+        "followers": 3625,
+        "monthlyListeners": 12259,
+        "playlistCount": 5
+      },
+      "youtube": {
+        "subscribers": 3809,
+        "averageViews": 7395
+      },
+      "bandcamp": {
+        "followers": 133,
+        "totalReleases": 6
+      }
+    },
+    "activeSince": 2006,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Banana Bounce",
+    "genre": ["Folk", "Acoustic", "Soul"],
+    "region": "Auckland",
+    "foodType": ["Herb"],
+    "language": ["English"],
+    "platforms": {
+      "spotify": {
+        "followers": 2844,
+        "monthlyListeners": 10087,
+        "playlistCount": 8
+      },
+      "youtube": {
+        "subscribers": 410,
+        "averageViews": 773
+      },
+      "bandcamp": {
+        "followers": 89,
+        "totalReleases": 5
+      }
+    },
+    "activeSince": 2005,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Saffron Sky",
+    "genre": ["Electronic", "Hip Hop"],
+    "region": "Auckland",
+    "foodType": ["Seafood"],
+    "language": ["English", "Japanese"],
+    "platforms": {
+      "spotify": {
+        "followers": 3699,
+        "monthlyListeners": 10193,
+        "playlistCount": 8
+      },
+      "youtube": {
+        "subscribers": 3026,
+        "averageViews": 5800
+      },
+      "bandcamp": {
+        "followers": 213,
+        "totalReleases": 5
+      }
+    },
+    "activeSince": 2006,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Peach Pop",
+    "genre": ["Electronic", "Funk", "Pop"],
+    "region": "Christchurch",
+    "foodType": ["Vegetable"],
+    "language": ["English"],
+    "platforms": {
+      "spotify": {
+        "followers": 2187,
+        "monthlyListeners": 5497,
+        "playlistCount": 6
+      },
+      "youtube": {
+        "subscribers": 974,
+        "averageViews": 2030
+      },
+      "bandcamp": {
+        "followers": 64,
+        "totalReleases": 2
+      }
+    },
+    "activeSince": 2023,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Turmeric Trail",
+    "genre": ["Funk", "Folk", "Acoustic"],
+    "region": "Dunedin",
+    "foodType": ["Herb"],
+    "language": ["English"],
+    "platforms": {
+      "spotify": {
+        "followers": 1316,
+        "monthlyListeners": 3529,
+        "playlistCount": 7
+      },
+      "youtube": {
+        "subscribers": 2303,
+        "averageViews": 3807
+      },
+      "bandcamp": {
+        "followers": 134,
+        "totalReleases": 3
+      }
+    },
+    "activeSince": 2019,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Oats Odyssey",
+    "genre": ["Electronic", "Acoustic", "Reggae"],
+    "region": "Dunedin",
+    "foodType": ["Spice"],
+    "language": ["English"],
+    "platforms": {
+      "spotify": {
+        "followers": 2292,
+        "monthlyListeners": 7700,
+        "playlistCount": 5
+      },
+      "youtube": {
+        "subscribers": 1521,
+        "averageViews": 1908
+      },
+      "bandcamp": {
+        "followers": 132,
+        "totalReleases": 3
+      }
+    },
+    "activeSince": 2006,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Tuna Tempo",
+    "genre": ["Funk", "Alternative"],
+    "region": "Wellington",
+    "foodType": ["Fruit"],
+    "language": ["English"],
+    "platforms": {
+      "spotify": {
+        "followers": 4197,
+        "monthlyListeners": 12095,
+        "playlistCount": 7
+      },
+      "youtube": {
+        "subscribers": 1604,
+        "averageViews": 3564
+      },
+      "bandcamp": {
+        "followers": 196,
+        "totalReleases": 4
+      }
+    },
+    "activeSince": 2010,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Beet Beat",
+    "genre": ["Electronic"],
+    "region": "Wellington",
+    "foodType": ["Fruit"],
+    "language": ["English"],
+    "platforms": {
+      "spotify": {
+        "followers": 2666,
+        "monthlyListeners": 10464,
+        "playlistCount": 8
+      },
+      "youtube": {
+        "subscribers": 3262,
+        "averageViews": 7709
+      },
+      "bandcamp": {
+        "followers": 191,
+        "totalReleases": 5
+      }
+    },
+    "activeSince": 2008,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Cashew Chill",
+    "genre": ["R&B", "Alternative", "Folk"],
+    "region": "Christchurch",
+    "foodType": ["Dessert"],
+    "language": ["English", "French"],
+    "platforms": {
+      "spotify": {
+        "followers": 4834,
+        "monthlyListeners": 17311,
+        "playlistCount": 1
+      },
+      "youtube": {
+        "subscribers": 3408,
+        "averageViews": 5709
+      },
+      "bandcamp": {
+        "followers": 85,
+        "totalReleases": 2
+      }
+    },
+    "activeSince": 2022,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Thyme Tune",
+    "genre": ["Electronic", "Indie Rock"],
+    "region": "Dunedin",
+    "foodType": ["Dessert"],
+    "language": ["English", "French"],
+    "platforms": {
+      "spotify": {
+        "followers": 1552,
+        "monthlyListeners": 5562,
+        "playlistCount": 8
+      },
+      "youtube": {
+        "subscribers": 3323,
+        "averageViews": 7944
+      },
+      "bandcamp": {
+        "followers": 187,
+        "totalReleases": 5
+      }
+    },
+    "activeSince": 2020,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Macaron Melody",
+    "genre": ["Reggae", "R&B", "Alternative"],
+    "region": "Wellington",
+    "foodType": ["Vegetable"],
+    "language": ["English"],
+    "platforms": {
+      "spotify": {
+        "followers": 3094,
+        "monthlyListeners": 10612,
+        "playlistCount": 5
+      },
+      "youtube": {
+        "subscribers": 3459,
+        "averageViews": 5872
+      },
+      "bandcamp": {
+        "followers": 96,
+        "totalReleases": 4
+      }
+    },
+    "activeSince": 2008,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Papaya Pulse",
+    "genre": ["Folk", "Electronic"],
+    "region": "Dunedin",
+    "foodType": ["Dessert"],
+    "language": ["English", "French"],
+    "platforms": {
+      "spotify": {
+        "followers": 1933,
+        "monthlyListeners": 6186,
+        "playlistCount": 1
+      },
+      "youtube": {
+        "subscribers": 1583,
+        "averageViews": 2620
+      },
+      "bandcamp": {
+        "followers": 294,
+        "totalReleases": 2
+      }
+    },
+    "activeSince": 2022,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Cinnamon Circle",
+    "genre": ["Pop", "R&B", "Alternative"],
+    "region": "Christchurch",
+    "foodType": ["Fruit"],
+    "language": ["English"],
+    "platforms": {
+      "spotify": {
+        "followers": 1448,
+        "monthlyListeners": 2917,
+        "playlistCount": 5
+      },
+      "youtube": {
+        "subscribers": 2071,
+        "averageViews": 2995
+      },
+      "bandcamp": {
+        "followers": 40,
+        "totalReleases": 2
+      }
+    },
+    "activeSince": 2014,
+    "selfDescribedIndie": false
+  },
+  {
+    "artistName": "Kiwi Kick",
+    "genre": ["Hip Hop"],
+    "region": "Wellington",
+    "foodType": ["Seafood"],
+    "language": ["English", "Japanese"],
+    "platforms": {
+      "spotify": {
+        "followers": 4795,
+        "monthlyListeners": 16205,
+        "playlistCount": 8
+      },
+      "youtube": {
+        "subscribers": 2075,
+        "averageViews": 3490
+      },
+      "bandcamp": {
+        "followers": 28,
+        "totalReleases": 2
+      }
+    },
+    "activeSince": 2015,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Clove Claps",
+    "genre": ["Pop", "Alternative", "Indie Rock"],
+    "region": "Wellington",
+    "foodType": ["Nut"],
+    "language": ["English"],
+    "platforms": {
+      "spotify": {
+        "followers": 4560,
+        "monthlyListeners": 10103,
+        "playlistCount": 1
+      },
+      "youtube": {
+        "subscribers": 3967,
+        "averageViews": 5541
+      },
+      "bandcamp": {
+        "followers": 22,
+        "totalReleases": 4
+      }
+    },
+    "activeSince": 2019,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Wheat Waltz",
+    "genre": ["Hip Hop", "Reggae", "Funk"],
+    "region": "Christchurch",
+    "foodType": ["Seafood"],
+    "language": ["English", "Japanese"],
+    "platforms": {
+      "spotify": {
+        "followers": 3186,
+        "monthlyListeners": 8016,
+        "playlistCount": 6
+      },
+      "youtube": {
+        "subscribers": 2126,
+        "averageViews": 2843
+      },
+      "bandcamp": {
+        "followers": 47,
+        "totalReleases": 1
+      }
+    },
+    "activeSince": 2023,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Crab Crawl",
+    "genre": ["R&B", "Reggae"],
+    "region": "Dunedin",
+    "foodType": ["Herb"],
+    "language": ["English"],
+    "platforms": {
+      "spotify": {
+        "followers": 1031,
+        "monthlyListeners": 3605,
+        "playlistCount": 7
+      },
+      "youtube": {
+        "subscribers": 567,
+        "averageViews": 1393
+      },
+      "bandcamp": {
+        "followers": 26,
+        "totalReleases": 5
+      }
+    },
+    "activeSince": 2015,
+    "selfDescribedIndie": false
+  },
+  {
+    "artistName": "Lentil Loop",
+    "genre": ["Hip Hop", "Pop"],
+    "region": "Auckland",
+    "foodType": ["Herb"],
+    "language": ["English"],
+    "platforms": {
+      "spotify": {
+        "followers": 1533,
+        "monthlyListeners": 5093,
+        "playlistCount": 2
+      },
+      "youtube": {
+        "subscribers": 3482,
+        "averageViews": 6306
+      },
+      "bandcamp": {
+        "followers": 132,
+        "totalReleases": 4
+      }
+    },
+    "activeSince": 2015,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Pecan Pulse",
+    "genre": ["Acoustic", "Indie Rock"],
+    "region": "Christchurch",
+    "foodType": ["Fruit"],
+    "language": ["English"],
+    "platforms": {
+      "spotify": {
+        "followers": 2021,
+        "monthlyListeners": 6070,
+        "playlistCount": 3
+      },
+      "youtube": {
+        "subscribers": 2225,
+        "averageViews": 3409
+      },
+      "bandcamp": {
+        "followers": 24,
+        "totalReleases": 2
+      }
+    },
+    "activeSince": 2012,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Mint Mood",
+    "genre": ["Indie Rock", "Hip Hop", "Funk"],
+    "region": "Wellington",
+    "foodType": ["Nut"],
+    "language": ["English"],
+    "platforms": {
+      "spotify": {
+        "followers": 2158,
+        "monthlyListeners": 8579,
+        "playlistCount": 8
+      },
+      "youtube": {
+        "subscribers": 1306,
+        "averageViews": 3110
+      },
+      "bandcamp": {
+        "followers": 176,
+        "totalReleases": 6
+      }
+    },
+    "activeSince": 2020,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Gelato Groove",
+    "genre": ["Hip Hop"],
+    "region": "Wellington",
+    "foodType": ["Herb"],
+    "language": ["English"],
+    "platforms": {
+      "spotify": {
+        "followers": 1932,
+        "monthlyListeners": 6051,
+        "playlistCount": 5
+      },
+      "youtube": {
+        "subscribers": 1777,
+        "averageViews": 3331
+      },
+      "bandcamp": {
+        "followers": 291,
+        "totalReleases": 4
+      }
+    },
+    "activeSince": 2017,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Plum Play",
+    "genre": ["Hip Hop", "R&B"],
+    "region": "Christchurch",
+    "foodType": ["Dessert"],
+    "language": ["English", "French"],
+    "platforms": {
+      "spotify": {
+        "followers": 3787,
+        "monthlyListeners": 11227,
+        "playlistCount": 7
+      },
+      "youtube": {
+        "subscribers": 3905,
+        "averageViews": 6098
+      },
+      "bandcamp": {
+        "followers": 31,
+        "totalReleases": 6
+      }
+    },
+    "activeSince": 2021,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Cardamom Call",
+    "genre": ["Hip Hop", "Folk", "Indie Rock"],
+    "region": "Wellington",
+    "foodType": ["Spice"],
+    "language": ["English"],
+    "platforms": {
+      "spotify": {
+        "followers": 1215,
+        "monthlyListeners": 3270,
+        "playlistCount": 3
+      },
+      "youtube": {
+        "subscribers": 1941,
+        "averageViews": 2866
+      },
+      "bandcamp": {
+        "followers": 155,
+        "totalReleases": 4
+      }
+    },
+    "activeSince": 2010,
+    "selfDescribedIndie": false
+  },
+  {
+    "artistName": "Orange Orbit",
+    "genre": ["Soul"],
+    "region": "Wellington",
+    "foodType": ["Nut"],
+    "language": ["English"],
+    "platforms": {
+      "spotify": {
+        "followers": 1971,
+        "monthlyListeners": 7314,
+        "playlistCount": 3
+      },
+      "youtube": {
+        "subscribers": 605,
+        "averageViews": 894
+      },
+      "bandcamp": {
+        "followers": 263,
+        "totalReleases": 1
+      }
+    },
+    "activeSince": 2012,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Nutmeg Note",
+    "genre": ["R&B"],
+    "region": "Auckland",
+    "foodType": ["Herb"],
+    "language": ["English"],
+    "platforms": {
+      "spotify": {
+        "followers": 4575,
+        "monthlyListeners": 15215,
+        "playlistCount": 7
+      },
+      "youtube": {
+        "subscribers": 2985,
+        "averageViews": 5290
+      },
+      "bandcamp": {
+        "followers": 199,
+        "totalReleases": 3
+      }
+    },
+    "activeSince": 2019,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Rice Riff",
+    "genre": ["Folk"],
+    "region": "Wellington",
+    "foodType": ["Seafood"],
+    "language": ["English", "Japanese"],
+    "platforms": {
+      "spotify": {
+        "followers": 4430,
+        "monthlyListeners": 14411,
+        "playlistCount": 2
+      },
+      "youtube": {
+        "subscribers": 3139,
+        "averageViews": 7736
+      },
+      "bandcamp": {
+        "followers": 90,
+        "totalReleases": 4
+      }
+    },
+    "activeSince": 2006,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Lobster Lilt",
+    "genre": ["Pop", "Reggae"],
+    "region": "Wellington",
+    "foodType": ["Nut"],
+    "language": ["English"],
+    "platforms": {
+      "spotify": {
+        "followers": 1272,
+        "monthlyListeners": 3648,
+        "playlistCount": 1
+      },
+      "youtube": {
+        "subscribers": 2199,
+        "averageViews": 3137
+      },
+      "bandcamp": {
+        "followers": 293,
+        "totalReleases": 4
+      }
+    },
+    "activeSince": 2019,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Pea Play",
+    "genre": ["Soul", "Folk"],
+    "region": "Dunedin",
+    "foodType": ["Fruit"],
+    "language": ["English"],
+    "platforms": {
+      "spotify": {
+        "followers": 3008,
+        "monthlyListeners": 8266,
+        "playlistCount": 1
+      },
+      "youtube": {
+        "subscribers": 3636,
+        "averageViews": 4501
+      },
+      "bandcamp": {
+        "followers": 164,
+        "totalReleases": 4
+      }
+    },
+    "activeSince": 2019,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Hazelnut Harmony",
+    "genre": ["Pop"],
+    "region": "Auckland",
+    "foodType": ["Grain"],
+    "language": ["English"],
+    "platforms": {
+      "spotify": {
+        "followers": 2046,
+        "monthlyListeners": 5228,
+        "playlistCount": 1
+      },
+      "youtube": {
+        "subscribers": 1024,
+        "averageViews": 1237
+      },
+      "bandcamp": {
+        "followers": 247,
+        "totalReleases": 3
+      }
+    },
+    "activeSince": 2008,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Dill Drive",
+    "genre": ["Indie Rock"],
+    "region": "Wellington",
+    "foodType": ["Grain"],
+    "language": ["English"],
+    "platforms": {
+      "spotify": {
+        "followers": 583,
+        "monthlyListeners": 2038,
+        "playlistCount": 4
+      },
+      "youtube": {
+        "subscribers": 3151,
+        "averageViews": 4539
+      },
+      "bandcamp": {
+        "followers": 243,
+        "totalReleases": 3
+      }
+    },
+    "activeSince": 2014,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Cupcake Cruise",
+    "genre": ["Pop", "Electronic"],
+    "region": "Auckland",
+    "foodType": ["Seafood"],
+    "language": ["English", "Japanese"],
+    "platforms": {
+      "spotify": {
+        "followers": 1357,
+        "monthlyListeners": 4725,
+        "playlistCount": 1
+      },
+      "youtube": {
+        "subscribers": 2412,
+        "averageViews": 3764
+      },
+      "bandcamp": {
+        "followers": 79,
+        "totalReleases": 5
+      }
+    },
+    "activeSince": 2011,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Pineapple Pulse",
+    "genre": ["Alternative"],
+    "region": "Auckland",
+    "foodType": ["Fruit"],
+    "language": ["English"],
+    "platforms": {
+      "spotify": {
+        "followers": 3605,
+        "monthlyListeners": 11577,
+        "playlistCount": 8
+      },
+      "youtube": {
+        "subscribers": 1798,
+        "averageViews": 4156
+      },
+      "bandcamp": {
+        "followers": 167,
+        "totalReleases": 2
+      }
+    },
+    "activeSince": 2012,
+    "selfDescribedIndie": true
+  },
+  {
+    "artistName": "Vanilla Vibe",
+    "genre": ["Funk", "Indie Rock"],
+    "region": "Auckland",
+    "foodType": ["Vegetable"],
+    "language": ["English"],
+    "platforms": {
+      "spotify": {
+        "followers": 687,
+        "monthlyListeners": 2287,
+        "playlistCount": 6
+      },
+      "youtube": {
+        "subscribers": 623,
+        "averageViews": 1492
+      },
+      "bandcamp": {
+        "followers": 293,
+        "totalReleases": 6
+      }
+    },
+    "activeSince": 2013,
+    "selfDescribedIndie": true
+  }
+]
