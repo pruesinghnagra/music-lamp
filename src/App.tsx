@@ -1,31 +1,24 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
-import Home from './pages/Home';
 import About from './pages/About';
-
-import './App.css';
+import Artists from './pages/Artists';
+import Header from './components/Header';
+import NotFound from './pages/NotFound';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <Router>
-      <div className="card">
-        <nav>
-          <ul>
-            <li>
-              <a href="/">Home</a>
-            </li>
-            <li>
-              <a href="/about">About</a>
-            </li>
-          </ul>
-        </nav>
-
+    <>
+      <Header />
+      <main className="mt-8 px-4 max-w-4xl mx-auto bg-mauveine">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/artists" element={<Artists />} />
           <Route path="/about" element={<About />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
-      </div>
-    </Router>
+      </main>
+    </>
   );
 }
 
