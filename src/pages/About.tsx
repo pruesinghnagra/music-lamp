@@ -41,19 +41,25 @@ export default function About() {
 
   return (
     <>
-      <div className="overflow-x-auto whitespace-nowrap space-x-4 p-4">
-        <motion.div variants={container} initial="initial" animate="animate">
+      <div className="overflow-x-auto whitespace-nowrap p-4 scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-transparent">
+        <motion.div
+          variants={container}
+          initial="initial"
+          animate="animate"
+          className="inline-flex gap-6"
+        >
           {topArtists.map((artist) => (
             <motion.div
               key={artist.artistName}
               variants={item}
-              className="inline-block w-64 border rounded-2xl shadow-md p-4 bg-white"
+              className="w-64 shrink-0 border-b border-black pb-6 group"
             >
               <ArtistCard artist={artist} />
             </motion.div>
           ))}
         </motion.div>
       </div>
+
       <BarChart width={600} height={300} data={data}>
         <XAxis dataKey="name" />
         <YAxis />
