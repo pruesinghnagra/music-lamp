@@ -1,3 +1,5 @@
+import LocationGraph from '../components/LocationGraph';
+
 export default function Home() {
   return (
     <div className="p-8">
@@ -6,6 +8,7 @@ export default function Home() {
         This site explores independent music scenes through data. Use the navigation above to browse
         artist stats and learn more about the project.
       </p>
+      <LocationGraph />
     </div>
   );
 }
