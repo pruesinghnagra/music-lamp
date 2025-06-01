@@ -13,7 +13,7 @@ export default function CursorTrail() {
   useEffect(() => {
     const handleMove = (e: MouseEvent) => {
       const newDot = {
-        id: Date.now(),
+        id: Math.random(),
         x: e.clientX,
         y: e.clientY,
       };

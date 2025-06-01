@@ -59,15 +59,16 @@ export default function About() {
           ))}
         </motion.div>
       </div>
-
-      <BarChart width={600} height={300} data={data}>
-        <XAxis dataKey="name" />
-        <YAxis />
-        <Tooltip />
-        <Legend />
-        <Bar dataKey="spotify" fill="#1DB954" />
-        <Bar dataKey="youtube" fill="#FF0000" />
-      </BarChart>
+      <div className="container mt-8">
+        <BarChart width={865} height={300} data={data}>
+          <XAxis dataKey="name" />
+          <YAxis />
+          <Tooltip />
+          <Legend />
+          <Bar dataKey="spotify" fill="#1DB954" />
+          <Bar dataKey="youtube" fill="#FF0000" />
+        </BarChart>
+      </div>
     </>
   );
 }

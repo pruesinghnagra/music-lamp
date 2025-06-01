@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header className="bg-white border-b border-black px-8 py-6 flex items-center justify-between">
       <Link to="/">
-        <h1 className="text-[6rem] leading-none font-extrabold tracking-tight">Music Lamp</h1>
+        <h1 className="text-2xl leading-none font-extrabold tracking-tight">Music Lamp</h1>
       </Link>
       <nav className="flex gap-8 text-sm uppercase tracking-wider">
         <NavLink
