@@ -5,6 +5,7 @@ import Artists from './pages/Artists';
 import Header from './components/Header';
 import NotFound from './pages/NotFound';
 import Home from './pages/Home';
+import Platforms from './pages/Platforms';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/artists" element={<Artists />} />
           <Route path="/about" element={<About />} />
+          <Route path="/platforms" element={<Platforms />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
