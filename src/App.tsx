@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className="mt-8 px-4 max-w-4xl mx-auto bg-mauveine">
+      <main className="mt-8 px-4 max-w-4xl mx-auto relative overflow-hidden">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/artists" element={<Artists />} />
