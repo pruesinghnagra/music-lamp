@@ -1,9 +1,9 @@
-import Spotify from '../components/Spotify';
+import ArtistTracks from '../components/ArtistTracks';
 
 export default function Home() {
   return (
     <div className="p-8">
-      <Spotify />
+      <ArtistTracks />
     </div>
   );
 }
