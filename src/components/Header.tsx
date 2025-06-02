@@ -47,6 +47,16 @@ export default function Header() {
         >
           Platforms
         </NavLink>
+        <NavLink
+          to="/tracks"
+          className={({ isActive }) =>
+            `transition-colors duration-200 hover:text-black ${
+              isActive ? 'text-black font-semibold' : 'text-gray-500'
+            }`
+          }
+        >
+          Tracks
+        </NavLink>
       </nav>
     </header>
   );
