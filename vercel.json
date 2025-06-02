@@ -1,8 +1,3 @@
 {
-  "rewrites": [{ "source": "/about", "destination": "/" }],
-  "functions": {
-    "server/index.ts": {
-      "runtime": "@vercel/node@18"
-    }
-  }
+  "rewrites": [{ "source": "/about", "destination": "/" }]
 }
