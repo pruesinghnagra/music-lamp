@@ -18,6 +18,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-force-graph-3d": "^1.26.1",
+    "react-markdown": "^10.1.0",
     "react-router-dom": "^7.5.3",
     "recharts": "^2.15.3",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
