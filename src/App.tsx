@@ -7,6 +7,8 @@ import NotFound from './pages/NotFound';
 import Home from './pages/Home';
 import Platforms from './pages/Platforms';
 import Tracks from './pages/Tracks';
+import EssayList from './pages/EssayList';
+import EssayDetail from './components/EssayDetail';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/platforms" element={<Platforms />} />
           <Route path="/tracks" element={<Tracks />} />
+          <Route path="/essays" element={<EssayList />} />
+          <Route path="/essays/:slug" element={<EssayDetail />} />;
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
