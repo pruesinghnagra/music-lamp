@@ -1,39 +1,66 @@
-import { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
+import type { EssayDetail as EssayDetailType } from '../types/Essay';
 
-interface Essay {
-  id: string;
-  title: string;
-  slug: string;
-  content: string;
-  tags: string[];
-  createdAt: string;
-}
+type Props = { essay: EssayDetailType };
 
-export default function EssayDetail() {
-  const { slug } = useParams<{ slug: string }>();
-  const [essay, setEssay] = useState<Essay | null>(null);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    fetch(`${import.meta.env.VITE_BACKEND_URL}/api/essays/${slug}`)
-      .then((res) => res.json())
-      .then(setEssay)
-      .catch((err) => console.error('Failed to fetch essay:', err))
-      .finally(() => setLoading(false));
-  }, [slug]);
-
-  if (loading) return <p className="p-4">Loading...</p>;
-  if (!essay) return <p className="p-4">Essay not found.</p>;
-
+export default function EssayDetail({ essay }: Props) {
   return (
-    <div className="p-6 max-w-3xl mx-auto">
-      <h1 className="text-3xl font-bold mb-2">{essay.title}</h1>
-      <p className="text-sm text-gray-500 mb-4">{new Date(essay.createdAt).toLocaleDateString()}</p>
+    <article className="p-6 max-w-3xl mx-auto">
+      <header className="mb-6">
+        <h1 className="text-3xl font-bold mb-2">{essay.title}</h1>
+        <p className="text-sm text-gray-500">{new Date(essay.createdAt).toLocaleDateString()}</p>
+
+        {essay.tags?.length > 0 && (
+          <div className="mt-2 flex flex-wrap gap-2">
+            {essay.tags.map((tag) => (
+              <span
+                key={tag}
+                className="text-xs uppercase tracking-wide bg-gray-100 px-2 py-1 rounded"
+              >
+                {tag}
+              </span>
+            ))}
+          </div>
+        )}
+
+        {essay.coverImage && (
+          <figure className="mt-4">
+            <img
+              src={essay.coverImage}
+              alt={essay.imageCredit ?? essay.title}
+              className="w-full rounded"
+              loading="lazy"
+            />
+            {essay.imageCredit && (
+              <figcaption className="mt-2 text-xs text-gray-500">{essay.imageCredit}</figcaption>
+            )}
+          </figure>
+        )}
+      </header>
+
       <div className="prose">
         <ReactMarkdown>{essay.content}</ReactMarkdown>
       </div>
-    </div>
+
+      {essay.images?.length > 0 && (
+        <section className="mt-8">
+          <h2 className="text-lg font-semibold mb-3">Photos</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {essay.images.map((img) => (
+              <figure key={img.id}>
+                <img src={img.url} alt={img.alt ?? ''} className="w-full rounded" loading="lazy" />
+                {(img.credit || img.alt) && (
+                  <figcaption className="mt-1 text-xs text-gray-500">
+                    {img.alt}
+                    {img.alt && img.credit ? ' — ' : ''}
+                    {img.credit}
+                  </figcaption>
+                )}
+              </figure>
+            ))}
+          </div>
+        </section>
+      )}
+    </article>
   );
 }
