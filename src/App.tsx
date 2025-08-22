@@ -1,14 +1,15 @@
 import { Routes, Route } from 'react-router-dom';
 
-import About from './pages/About';
-import Artists from './pages/Artists';
 import Header from './components/Header';
-import NotFound from './pages/NotFound';
-import Home from './pages/Home';
-import Platforms from './pages/Platforms';
-import Tracks from './pages/Tracks';
-import EssayList from './pages/EssayList';
-import EssayDetail from './components/EssayDetail';
+
+import HomePage from './pages/HomePage';
+import EssaysPage from './pages/EssaysPage';
+import EssayPage from './pages/EssayPage';
+// import ArtistsPage from './pages/ArtistsPage';
+// import TracksPage from './pages/TracksPage';
+// import PlatformsPage from './pages/PlatformsPage';
+// import AboutPage from './pages/AboutPage';
+import NotFoundPage from './pages/NotFoundPage';
 
 function App() {
   return (
@@ -16,14 +17,14 @@ function App() {
       <Header />
       <main className="mt-8 px-4 max-w-4xl mx-auto relative overflow-hidden">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/artists" element={<Artists />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/platforms" element={<Platforms />} />
-          <Route path="/tracks" element={<Tracks />} />
-          <Route path="/essays" element={<EssayList />} />
-          <Route path="/essays/:slug" element={<EssayDetail />} />;
-          <Route path="*" element={<NotFound />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/writings" element={<EssaysPage />} />
+          <Route path="/writings/:slug" element={<EssayPage />} />
+          {/* <Route path="/artists" element={<ArtistsPage />} />
+          <Route path="/tracks" element={<TracksPage />} />
+          <Route path="/platforms" element={<PlatformsPage />} />
+          <Route path="/about" element={<AboutPage />} /> */}
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>
     </>
