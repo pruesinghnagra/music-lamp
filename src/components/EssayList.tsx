@@ -45,7 +45,7 @@ export default function EssayList() {
 
   return (
     <div className="p-6">
-      <h1 className="text-2xl mb-4 font-bold uppercase tracking-wider">Articles</h1>
+      <h1 className="text-2xl mb-4 font-bold uppercase tracking-wider dark:text-white">Articles</h1>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {essays.map((essay) => (
@@ -55,7 +55,7 @@ export default function EssayList() {
             className="border-t border-black py-6"
           >
             <div className="mb-2">
-              <h2 className="text-xl font-semibold text-black group-hover:text-gray-400 tracking-tight">
+              <h2 className="text-xl font-semibold text-black dark:text-white group-hover:text-gray-400 tracking-tight">
                 {essay.title}
               </h2>
               <p className="text-xs text-gray-500 group-hover:text-gray-400">
@@ -68,7 +68,7 @@ export default function EssayList() {
                   {essay.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="px-2 py-0.5 border border-black rounded-full group-hover:text-gray-400 group-hover:border-gray-400"
+                      className="px-2 py-0.5 border border-black rounded-full dark:text-white group-hover:text-gray-400 group-hover:border-gray-400"
                     >
                       {tag}
                     </span>
