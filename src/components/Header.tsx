@@ -12,23 +12,11 @@ export default function Header() {
       <Link to="/">
         <h1 className="text-2xl leading-none tracking-tight">Music Lamp</h1>
       </Link>
-      <nav className="flex gap-8 text-sm uppercase tracking-wider">
-        {/* <NavLink to="/artists" className={navClass}>
-          Artists
-        </NavLink>
-        <NavLink to="/about" className={navClass}>
-          About
-        </NavLink>
-        <NavLink to="/platforms" className={navClass}>
-          Platforms
-        </NavLink>
-        <NavLink to="/tracks" className={navClass}>
-          Tracks
-        </NavLink> */}
+      {/* <nav className="flex gap-8 text-sm uppercase tracking-wider">
         <NavLink to="/writings" className={navClass}>
           Writings
         </NavLink>
-      </nav>
+      </nav> */}
     </header>
   );
 }
