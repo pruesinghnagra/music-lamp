@@ -20,6 +20,30 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+nav a {
   font-family: 'Outfit', sans-serif;
+}
+
+.markdown em {
+  font-style: italic;
+  font-weight: 500;
+}
+
+.markdown strong {
+  font-weight: 700;
+}
+
+.markdown a {
+  color: #7c3aed;
+  text-decoration: none;
+  transition:
+    color 0.2s,
+    text-decoration 0.2s;
+}
+
+.markdown a:hover {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  color: #7c3aed;
 }

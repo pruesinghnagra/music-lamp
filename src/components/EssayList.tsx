@@ -45,7 +45,7 @@ export default function EssayList() {
 
   return (
     <div className="p-6">
-      <h1 className="text-2xl font-bold mb-4">Writings</h1>
+      <h1 className="text-2xl mb-4 font-bold uppercase tracking-wider">Reviews</h1>
 
       <ul className="space-y-6">
         {essays.map((essay) => (
@@ -55,7 +55,9 @@ export default function EssayList() {
             </p>
 
             <Link to={`/writings/${essay.slug}`}>
-              <h2 className="text-xl font-semibold hover:underline">{essay.title}</h2>
+              <h2 className="text-xl font-semibold uppercase tracking-wider hover:underline">
+                {essay.title}
+              </h2>
             </Link>
 
             {essay.tags?.length > 0 && (

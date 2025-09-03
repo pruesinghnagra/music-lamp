@@ -38,7 +38,7 @@ export default function EssayDetail({ essay }: Props) {
         )}
       </header>
 
-      <div className="prose">
+      <div className="markdown space-y-4 leading-relaxed">
         <ReactMarkdown>{essay.content}</ReactMarkdown>
       </div>
 
