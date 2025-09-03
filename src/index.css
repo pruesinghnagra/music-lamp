@@ -17,10 +17,9 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-/* For headings or special parts */
 h1,
 h2,
 h3,
-a {
+h4 {
   font-family: 'Outfit', sans-serif;
 }
