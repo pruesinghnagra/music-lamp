@@ -15,18 +15,16 @@ function App() {
   return (
     <>
       <Header />
-      <main className="mt-8 px-4 max-w-4xl mx-auto relative overflow-hidden">
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/writings" element={<EssaysPage />} />
-          <Route path="/writings/:slug" element={<EssayPage />} />
-          {/* <Route path="/artists" element={<ArtistsPage />} />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/writings" element={<EssaysPage />} />
+        <Route path="/writings/:slug" element={<EssayPage />} />
+        {/* <Route path="/artists" element={<ArtistsPage />} />
           <Route path="/tracks" element={<TracksPage />} />
           <Route path="/platforms" element={<PlatformsPage />} />
           <Route path="/about" element={<AboutPage />} /> */}
-          <Route path="*" element={<NotFoundPage />} />
-        </Routes>
-      </main>
+        <Route path="*" element={<NotFoundPage />} />
+      </Routes>
     </>
   );
 }
