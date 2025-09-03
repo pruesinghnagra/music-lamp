@@ -1,5 +1,12 @@
 @import 'tailwindcss';
 
+/* to remember what sizes tailwind uses
+sm: 640px
+md: 768px
+lg: 1024px
+xl: 1280px 
+*/
+
 :root {
   overflow-y: scroll;
   line-height: 1.5;
@@ -25,6 +32,10 @@ nav a {
   font-family: 'Outfit', sans-serif;
 }
 
+.markdown p {
+  font-size: 1.2rem;
+}
+
 .markdown em {
   font-style: italic;
   font-weight: 500;
@@ -46,4 +57,17 @@ nav a {
   text-decoration: underline;
   text-decoration-style: wavy;
   color: #7c3aed;
+}
+
+.geneva-am-pikipiki h1 {
+  color: #fff800;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1280px) {
+  .geneva-am-pikipiki h1 {
+    font-size: 8rem;
+  }
 }
