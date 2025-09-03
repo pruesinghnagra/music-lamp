@@ -23,7 +23,7 @@ export default function EssayDetail({ essay }: Props) {
         <div className="absolute top-0 left-0 w-full h-full bg-black/40 flex flex-col justify-start p-4 lg:p-6">
           <h1 className="text-4xl lg:text-8xl font-bold text-white">{essay.title}</h1>
           <p className="text-sm text-gray-200 mt-1">
-            {new Date(essay.createdAt).toLocaleDateString()}
+            {new Date(essay.updatedAt).toLocaleDateString()}
           </p>
           {essay.tags?.length > 0 && (
             <div className="mt-2 flex flex-wrap gap-2">
