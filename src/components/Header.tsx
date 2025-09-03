@@ -8,7 +8,7 @@ function navClass({ isActive }: { isActive: boolean }) {
 
 export default function Header() {
   return (
-    <header className="bg-white border-b border-black px-8 py-6 flex items-center justify-between">
+    <header className="border-b border-black px-8 py-6 flex items-center justify-between">
       <Link to="/">
         <h1 className="text-2xl leading-none tracking-tight">Music Lamp</h1>
       </Link>
