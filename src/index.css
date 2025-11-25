@@ -60,7 +60,7 @@ nav a {
 }
 
 .geneva-am-pikipiki h1 {
-  color: #fff800;
+  font-family: 'Kapakana', cursive;
 }
 
 @media (min-width: 768px) {
@@ -68,6 +68,20 @@ nav a {
 
 @media (min-width: 1280px) {
   .geneva-am-pikipiki h1 {
-    font-size: 8rem;
+    font-size: 6rem;
   }
+}
+
+@keyframes ticker {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-ticker {
+  display: inline-flex;
+  animation: ticker 15s linear infinite;
 }
