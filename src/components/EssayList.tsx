@@ -47,37 +47,35 @@ export default function EssayList() {
     <>
       <h1 className="text-2xl mb-4 font-bold uppercase tracking-wider dark:text-white">Articles</h1>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {essays.map((essay) => (
-          <Link
-            key={essay.id}
-            to={`/writings/${essay.slug}`}
-            className="border-t border-black dark:border-white py-6"
-          >
-            <div className="mb-2">
-              <h2 className="text-xl font-semibold text-black dark:text-white group-hover:text-gray-400 tracking-tight">
-                {essay.title}
-              </h2>
-              <p className="text-xs text-gray-500 group-hover:text-gray-400">
-                {new Date(essay.updatedAt).toLocaleDateString()}
-              </p>
-            </div>
-            <div className="flex flex-wrap gap-2 text-xs text-black">
-              {essay.tags?.length > 0 && (
-                <div className="mt-2 flex flex-wrap gap-2">
-                  {essay.tags.map((tag) => (
-                    <span
-                      key={tag}
-                      className="px-2 py-0.5 border border-black dark:border-white rounded-full dark:text-white group-hover:text-gray-400 group-hover:border-gray-400"
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div>
-              )}
-            </div>
-          </Link>
-        ))}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 border-t border-black dark:border-white py-6">
+        <div className="rounded-lg shadow-sm p-6">
+          {essays.map((essay) => (
+            <Link key={essay.id} to={`/writings/${essay.slug}`} className="">
+              <div className="mb-2 ">
+                <h2 className="text-xl font-semibold text-black dark:text-white group-hover:text-gray-400 tracking-tight">
+                  {essay.title}
+                </h2>
+                <p className="text-xs text-gray-500 group-hover:text-gray-400">
+                  {new Date(essay.updatedAt).toLocaleDateString()}
+                </p>
+              </div>
+              <div className="flex flex-wrap gap-2 text-xs text-black">
+                {essay.tags?.length > 0 && (
+                  <div className="mt-2 flex flex-wrap gap-2">
+                    {essay.tags.map((tag) => (
+                      <span
+                        key={tag}
+                        className="px-2 py-0.5 border border-black dark:border-white rounded-full dark:text-white group-hover:text-gray-400 group-hover:border-gray-400"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </Link>
+          ))}
+        </div>
       </div>
     </>
   );
