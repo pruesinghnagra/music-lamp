@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 
 import EssayList from '../components/EssayList';
 import CursorTrail from '../components/CursorTrail';
+import PlatformGrid from '../components/PlatformGrid';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
           documenting community and music.
         </p>
       </article>
+      <PlatformGrid />
       <section className="mx-auto p-6 max-w-4xl dark:text-white">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
