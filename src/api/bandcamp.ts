@@ -2,7 +2,9 @@ export async function fetchBandcampBand(name: string) {
     try {
         const backendUrl = import.meta.env.VITE_BACKEND_URL;
         const response = await fetch(
-            `${backendUrl}/api/bandcamp/band?name=${encodeURIComponent(name)}`,
+            `${backendUrl}/api/bandcamp/metrics?name=${
+                encodeURIComponent(name)
+            }`,
         );
 
         if (!response.ok) {
