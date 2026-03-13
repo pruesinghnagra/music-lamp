@@ -9,7 +9,7 @@ export default function PlatformsGrid() {
       logoSrc: '/BandCamp-Logo.png',
     },
     {
-      to: '/spotify/comparison',
+      to: '/spotify',
       title: 'Spotify',
       description: 'Analyze your Spotify playlists and artist stats.',
       logoSrc: '/Spotify-Logo.png',

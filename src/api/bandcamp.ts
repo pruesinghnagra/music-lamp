@@ -10,7 +10,7 @@ export async function fetchBandcampBand(name: string) {
         if (!response.ok) {
             const text = await response.text();
             throw new Error(
-                `Bandcamp fetch failed ${response.status}: ${text}`,
+                `Bandcamp fetch failed ${response.status}: ${text}!`,
             );
         }
 
