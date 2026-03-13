@@ -1,7 +1,7 @@
 export async function fetchSpotifyToken() {
     try {
         const backendUrl = import.meta.env.VITE_BACKEND_URL;
-        const response = await fetch(`${backendUrl}/api/spotify`);
+        const response = await fetch(`${backendUrl}/api/token`);
 
         if (!response.ok) {
             throw new Error(
@@ -33,7 +33,7 @@ export async function fetchWebApi(
     });
 
     if (!res.ok) {
-        const text = await res.text(); // Safely log error response
+        const text = await res.text();
         throw new Error(`API error ${res.status}: ${text}`);
     }
 
