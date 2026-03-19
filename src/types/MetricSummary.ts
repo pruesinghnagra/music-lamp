@@ -10,15 +10,11 @@ interface MetricSummary {
         featuredTrackPresent: number;
     };
     discography: {
-        totalAlbums: number;
-        albumsWithReleaseDate: number;
-        albumsWithTrackCount: number;
-        albumsWithImage: number;
-        albumsWithDescription: number;
-        albumsWithLabel: number;
-        averageTracksPerAlbum: number;
-        totalTrackCount: number;
-        totalStreamableTracks: number;
-        totalTracksWithLyrics: number;
+        totalAlbums: AlbumSummary[];
     };
 }
+
+type AlbumSummary = {
+    name: string;
+    url: string;
+};

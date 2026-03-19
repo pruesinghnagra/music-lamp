@@ -21,3 +21,27 @@ export async function fetchBandcampBand(name: string) {
         return null;
     }
 }
+
+export async function fetchAlbumMetrics(url: string) {
+    try {
+        const backendUrl = import.meta.env.VITE_BACKEND_URL;
+        const response = await fetch(
+            `${backendUrl}/api/bandcamp/album-metrics?url=${
+                encodeURIComponent(url)
+            }`,
+        );
+
+        if (!response.ok) {
+            const text = await response.text();
+            throw new Error(
+                `Bandcamp fetch failed ${response.status}: ${text}!`,
+            );
+        }
+
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error(error);
+        return null;
+    }
+}
