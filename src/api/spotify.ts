@@ -47,3 +47,55 @@ export async function getArtistsTopTracks(artistId: string) {
     );
     return data.tracks;
 }
+
+export async function fetchSpotifyMetrics(name: string) {
+    try {
+        const backendUrl = import.meta.env.VITE_BACKEND_URL;
+        const response = await fetch(
+            `${backendUrl}/api/spotify/metrics?name=${
+                encodeURIComponent(name)
+            }`,
+        );
+
+        console.log(response);
+
+        if (!response.ok) {
+            const text = await response.text();
+            throw new Error(
+                `Spotify fetch failed ${response.status}: ${text}!`,
+            );
+        }
+
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error(error);
+        return null;
+    }
+}
+
+export async function fetchAlbumMetrics(albumId: string) {
+    try {
+        const backendUrl = import.meta.env.VITE_BACKEND_URL;
+        const response = await fetch(
+            `${backendUrl}/api/spotify/album-tracks?albumId=${
+                encodeURIComponent(albumId)
+            }`,
+        );
+
+        console.log(response);
+
+        if (!response.ok) {
+            const text = await response.text();
+            throw new Error(
+                `Spotify fetch failed ${response.status}: ${text}!`,
+            );
+        }
+
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error(error);
+        return null;
+    }
+}
